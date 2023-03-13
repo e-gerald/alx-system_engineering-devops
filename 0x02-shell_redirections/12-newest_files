@@ -1,2 +1,2 @@
 #!/bin/nash
-ls -t1 | head
+ls -tl | head
