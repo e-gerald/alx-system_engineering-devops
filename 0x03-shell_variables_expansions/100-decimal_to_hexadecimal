@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%d\n" 0x1F $DECIMAL
+echo (([##16]DECIMAL))
