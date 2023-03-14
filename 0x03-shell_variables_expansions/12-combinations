@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '\n'{a..z}{a..z} | tr -s 'o'| head -c -675
+echo -e '\n'{a..z}{a..z} | tr -s 'o'| tail -303 | head -10
