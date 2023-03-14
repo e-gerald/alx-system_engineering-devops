@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..z}{a..z}"\n" | tr -s 'o'
+echo -e '\n'{a..z}{a..z} | tr -s 'o'| head -c 64
